@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+
+body {
+  font-family: 'Outfit', sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom right, #eef2ff, #e9d5ff, #eef2ff); /* equivalent of your tailwind gradient */
+  /* Or use Tailwind’s colors if you want exact matches */
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html{
+   background: linear-gradient(to bottom right, #eef2ff, #e9d5ff, #eef2ff);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-padding-top: 64px; /* height of your navbar */
+}
+
+
+
+ 
